@@ -3,6 +3,8 @@ Docker image for jupyter with prebuilt sql and git modules.
 
 Source: https://github.com/sorokine/docker-jupyter-sql
 
+Docker Hub: https://hub.docker.com/r/sorokine/docker-jupyter-sql
+
 ## to build
 
 ```
@@ -14,7 +16,7 @@ docker build --tag jupyter-sql .
 ```
 mkdir -p nb
 sudo chmode -R a+rw nb/
-docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "${PWD}/nb":/home/jovyan/work jupyter-sql:latest
+docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "${PWD}/nb":/home/jovyan/work sorokine/docker-jupyter-sql
 ```
 
 ## to use
