@@ -15,7 +15,7 @@ docker build --tag jupyter-sql .
 
 ```
 mkdir -p nb
-sudo chmode -R a+rw nb/
+sudo chmod -R a+rw nb/
 docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "${PWD}/nb":/home/jovyan/work sorokine/docker-jupyter-sql
 ```
 
