@@ -1,5 +1,7 @@
 # docker-jupyter-sql
-Docker image for jupyter with prebuilt sql and git modules
+Docker image for jupyter with prebuilt sql and git modules.
+
+Source: https://github.com/sorokine/docker-jupyter-sql
 
 ## to build
 
