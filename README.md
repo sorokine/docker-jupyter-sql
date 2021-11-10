@@ -17,6 +17,6 @@ docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "${PWD}/nb":/home/jovy
 
 ## to use
 
-* Follow these examples for SQL: https://github.com/catherinedevlin/ipython-sql
+* To use SQL in the notebook see https://github.com/catherinedevlin/ipython-sql
 
-* Use git push or pull in a terminal in JupyterLab, you need to enter user/password each time.
+* To push or pull to/from a git repo open a terrminal in JupyterLab.  You will need to enter user/password for each push or pull.
