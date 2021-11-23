@@ -6,7 +6,7 @@ RUN apt-get update --yes && \
 
 USER ${NB_UID}
 
-RUN pip install ipython-sql psycopg2 pgspecial
+RUN pip install ipython-sql psycopg2 pgspecial pandas-bokeh
 
 RUN conda install -c conda-forge nodejs jupyterlab-git
 
